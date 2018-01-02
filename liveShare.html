@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>直播分享</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/common/common.css" />
+		<link rel="stylesheet" href="css/common/video-js.css" />
+		<link rel="stylesheet" href="css/liveShare.css" />
+		<style>
+			.m{
+				width: 100%;
+			}
+			.my-video-dimensions {
+				width: 100%;
+				height: 180px;				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container" id="app">
+			<div class="top">
+				<!--<div class="video">
+					<video src="" id="video" style="display:none;" controls="controls"></video>
+					<img src="img/play.png" alt="" class="play"/>
+				</div>-->
+				<div class="m">
+					<video id="my-video" class="video-js" x5-video-player-type="true" webkit-playsinline="true" x5-video-player-type='h5' playsinline="true" x5-playsinline x-webkit-airplay="allow" controls preload="auto" width="740" height="400" poster="" data-setup="{}">
+						 <source src="http://4594.liveplay.myqcloud.com/live/4594_f40e1b499f95f7b1a9658ded35a25fa3.m3u8"  type="application/x-mpegURL">
+					</video>
+				</div>
+				<p class="title">直播标题</p>
+				<p class="intro">动态分享动态分享动态分享动态分享动态分享动态分享动态分享</p>
+			</div>
+			<div class="inst_intro">
+				<p class="inst_name">机构信息</p>
+				<p class="inst_address">
+					<img src="img/address.png" alt="" />
+					<span>湖北省武汉市汉阳区汉阳</span>
+				</p>
+				<p class="inst_mobile">
+					<img src="img/mobile.png" alt="" />
+					<span>15570609927</span>
+				</p>
+			</div>
+			<div class="publicity">
+				<img src="img/erweima.png" alt="" />
+				<p class="text">扫二维码，关注公众号</p>
+			</div>
+		</div>
+		<div class="bottom">
+			<img src="img/logo.png" alt="" class="logo"/>
+			<p class="content">
+				<span class="recommend">推荐码：<span class="number">4597</span></span>
+				<span class="con">使用推荐码注册即可获得金币优惠券！</span>
+			</p>
+			<img src="img/download.png" alt="" class="download"/>
+		</div>
+		<script type="text/javascript" src="js/common/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="js/common/rem.js"></script>
+		<script type="text/javascript" src="js/common/video.min.js"></script>
+		<script type="text/javascript" src="js/common/videojs-contrib-hls.js"></script>
+		<script type="text/javascript" src="js/liveShare.js"></script>
+	</body>
+</html>

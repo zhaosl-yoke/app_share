@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>动态分享</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/common/common.css" />
+		<link rel="stylesheet" href="css/videoShare.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="top">
+				<div class="video">
+					<video src="" id="video" style="display:none;" controls="controls"></video>
+					<img src="img/play.png" alt="" class="play"/>
+				</div>
+				<p class="intro">动态分享动态分享动态分享动态分享动态分享动态分享动态分享</p>
+			</div>
+			<div class="inst_intro">
+				<p class="inst_name">机构信息</p>
+				<p class="inst_address">
+					<img src="img/address.png" alt="" />
+					<span>湖北省武汉市汉阳区汉阳</span>
+				</p>
+				<p class="inst_mobile">
+					<img src="img/mobile.png" alt="" />
+					<span>15570609927</span>
+				</p>
+			</div>
+		</div>
+		<div class="bottom">
+			<img src="img/logo.png" alt="" class="logo"/>
+			<p class="content">
+				<span class="recommend">推荐码：<span class="number">4597</span></span>
+				<span class="con">使用推荐码注册即可获得金币优惠券！</span>
+			</p>
+			<img src="img/download.png" alt="" class="download"/>
+		</div>
+		<script type="text/javascript" src="js/common/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="js/common/rem.js"></script>
+		<script type="text/javascript" src="js/videoShare.js"></script>
+		<!--<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script type="text/javascript">
+			var linkTitle = title;
+			var linkUrl = location.href.split('#')[0];
+			var linkDesc = desc1;
+			var poster = thumb;
+			sercice(sUrl.getSign,function(data) {
+				var appId = data.body.appId;
+				var noncestr = data.body.noncestr;
+				var signature = data.body.signature;
+				var timestamp = data.body.timestamp;
+				wx.config({
+		            debug: false,
+		            appId: appId,
+		            timestamp: timestamp, 
+		            nonceStr: noncestr, 
+		            signature: signature,
+		            jsApiList: [
+		                'onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone'
+		            ]
+				});
+			   wx.ready(function () {
+				    wx.onMenuShareTimeline({
+						title: linkTitle,
+						link: linkUrl,
+						imgUrl: poster,
+						success: function () { 
+						
+						},
+						cancel: function () { 
+						}
+				    });	
+				    wx.onMenuShareAppMessage({
+					    title: linkTitle,
+					    desc: linkDesc, 
+					    link: linkUrl, 
+					    imgUrl: poster, 
+					    success: function () { 
+					    },
+					    cancel: function () { 
+					    }
+					});
+					wx.onMenuShareQQ({
+					    title: linkTitle,
+					    desc: linkDesc, 
+					    link: linkUrl, 
+					    imgUrl: poster, 
+					    success: function () { 
+					    },
+					    cancel: function () { 
+					    }
+					});
+					wx.onMenuShareWeibo({
+					    title: linkTitle,
+					    desc: linkDesc, 
+					    link: linkUrl, 
+					    imgUrl: poster, 
+					    success: function () { 
+					    },
+					    cancel: function () { 
+					    }
+					});
+					wx.onMenuShareQZone({
+					    title: linkTitle,
+					    desc: linkDesc, 
+					    link: linkUrl, 
+					    imgUrl: poster, 
+					    success: function () { 
+					    },
+					    cancel: function () { 
+					    }
+					});
+			   })
+			},{
+				"url": location.href.split('#')[0]
+			})
+		</script>-->
+	</body>
+</html>

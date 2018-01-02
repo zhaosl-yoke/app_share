@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>直播分享</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/common/common.css" />
+		<link rel="stylesheet" href="css/liveShare.css" />
+		<style>
+			.video{
+				width: 100%;
+				background: url(img/bj.jpg) no-repeat;
+				background-size: cover;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.video .topCon{
+				position: relative;
+			    padding: 0.2rem;
+			    background: rgba(246,246,246,0.5);
+			    border-radius: 0.1rem;
+			    box-sizing: border-box;
+			    color: #373737;
+			}
+			.topCon .presenter{
+				text-align: center;
+				font-size: 0.3rem;
+				margin-bottom: 0.1rem;
+			}
+			.topCon .time{
+				font-size: 0.24rem;
+				color: #666;
+			}
+			.topCon .flower{
+				position: absolute;
+			    bottom: -0.06rem;
+			    right: -0.4rem;
+			    width: 1.4rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="top">
+				<div class="video">
+					<div class="topCon">
+						<p class="presenter">主讲人：猫咪</p>
+						<p class="time">预计开播时间：2017-11-30 14:00</p>
+						<img src="img/flower.png" alt="" class="flower"/>
+					</div>
+				</div>
+				<p class="title">直播标题</p>
+				<p class="intro">动态分享动态分享动态分享动态分享动态分享动态分享动态分享</p>
+			</div>
+			<div class="inst_intro">
+				<p class="inst_name">机构信息</p>
+				<p class="inst_address">
+					<img src="img/address.png" alt="" />
+					<span>湖北省武汉市汉阳区汉阳</span>
+				</p>
+				<p class="inst_mobile">
+					<img src="img/mobile.png" alt="" />
+					<span>15570609927</span>
+				</p>
+			</div>
+			<div class="publicity">
+				<img src="img/erweima.png" alt="" />
+				<p class="text">扫二维码，关注公众号</p>
+			</div>
+		</div>
+		<div class="bottom">
+			<img src="img/logo.png" alt="" class="logo"/>
+			<p class="content">
+				<span class="recommend">推荐码：<span class="number">4597</span></span>
+				<span class="con">使用推荐码注册即可获得金币优惠券！</span>
+			</p>
+			<img src="img/download.png" alt="" class="download"/>
+		</div>
+		<script type="text/javascript" src="js/common/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="js/common/rem.js"></script>
+		<script type="text/javascript" src="js/preShare.js"></script>
+	</body>
+</html>

@@ -1,0 +1,100 @@
+.container{
+	background: #ededed;
+    flex: 1;
+    margin-bottom: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+.container .top{
+	background: #fff;
+	margin-bottom: 0.2rem;
+}
+.container .top .title{
+	padding: 0.26rem 0.2rem 0 0.2rem;
+	line-height: 0.32rem;
+}
+.container .top .intro{
+	padding: 0.2rem 0.2rem 0.24rem 0.2rem;
+	line-height: 0.33rem;
+	color: #999;
+}
+.container .video{
+	height: 3.6rem;
+}
+#video{
+	width:100%;
+	height: 100%;
+}
+.video{
+	position: relative;
+}
+.video .play{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0.8rem;
+	margin-left: -0.4rem;
+	margin-top: -0.4rem;
+}
+.inst_intro{
+	padding: 0.16rem 0.2rem 0.22rem 0.2rem;
+	background: #fff;
+}
+.inst_intro .inst_name{
+	line-height: 0.58rem;
+	font-size: 0.3rem;
+}
+.inst_intro .inst_mobile,.inst_intro .inst_address{
+	display: flex;
+	align-items: center;
+	height: 0.5rem;
+}
+.inst_intro .inst_mobile img,.inst_intro .inst_address img{
+	width: 0.26rem;
+	margin-right: 0.2rem;
+}
+.inst_intro .inst_mobile span,.inst_intro .inst_address span{
+	color: #999;
+}
+.publicity{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 2.82rem;
+	flex: 1;
+}
+.publicity img{
+	width: 1.4rem;
+	margin-bottom: 0.16rem;
+}
+.bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1.6rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+}
+.bottom .logo{
+	width: 1.1rem;
+	margin: 0 0.3rem 0 0.2rem;
+}
+.bottom .download{
+	width: 1.95rem;
+	margin-right: 0.1rem;
+}
+.bottom .content{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.bottom .content .con{
+	font-size: 0.22rem;
+	color: #999;
+}
+.bottom .content .number{
+	color: #f44a33;
+}

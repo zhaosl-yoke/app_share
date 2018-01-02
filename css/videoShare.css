@@ -1,0 +1,80 @@
+.container{
+	background: #ededed;
+}
+.container .top{
+	background: #fff;
+}
+.container .top p{
+	padding: 0.26rem 0.2rem 0.24rem 0.2rem;
+	line-height: 0.33rem;
+	margin-bottom: 0.2rem;
+	color: #999;
+}
+.container .video{
+	height: 4.2rem;
+}
+#video{
+	width:100%;
+	height: 100%;
+}
+.video{
+	position: relative;
+}
+.video .play{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0.8rem;
+	margin-left: -0.4rem;
+	margin-top: -0.4rem;
+}
+.inst_intro{
+	padding: 0.16rem 0.2rem 0.22rem 0.2rem;
+	background: #fff;
+}
+.inst_intro .inst_name{
+	line-height: 0.58rem;
+	font-size: 0.3rem;
+}
+.inst_intro .inst_mobile,.inst_intro .inst_address{
+	display: flex;
+	align-items: center;
+	height: 0.5rem;
+}
+.inst_intro .inst_mobile img,.inst_intro .inst_address img{
+	width: 0.26rem;
+	margin-right: 0.2rem;
+}
+.inst_intro .inst_mobile span,.inst_intro .inst_address span{
+	color: #999;
+}
+.bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1.6rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+}
+.bottom .logo{
+	width: 1.1rem;
+	margin: 0 0.3rem 0 0.2rem;
+}
+.bottom .download{
+	width: 1.95rem;
+	margin-right: 0.1rem;
+}
+.bottom .content{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.bottom .content .con{
+	font-size: 0.22rem;
+	color: #999;
+}
+.bottom .content .number{
+	color: #f44a33;
+}
